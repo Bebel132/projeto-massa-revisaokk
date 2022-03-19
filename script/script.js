@@ -1,9 +1,10 @@
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     cssMode: true,
+    loop: true,
     autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
+        delay: 1000,
+        disableOnInteraction: true,
     },
     navigation: {
       nextEl: ".swiper-button-next",

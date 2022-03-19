@@ -103,7 +103,7 @@
 }
 
 .conteudo-texto {
-    max-width: 550px;
+    max-width: 500px;
     padding: 20px;
 }
 
@@ -123,6 +123,16 @@
 .conteudo-aolado {
     max-width: 150px;
     padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .conteudo-container{
+        flex-direction: column;
+    }
+
+    .conteudo-aolado {
+        max-width: 100%;
+    }
 }
 
 .swiper {
